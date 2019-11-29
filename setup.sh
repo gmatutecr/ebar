@@ -63,8 +63,8 @@ maininstall() { # Installs all needed programs from main repo.
 	installpkg "$1"
 	}
 
-#updateubuntupackages
-#installscriptdeps
+updateubuntupackages
+installscriptdeps
 welcomemsg || error "Something went wrong."
 preinstallmsg || error "Something went wrong."
 installationloop
